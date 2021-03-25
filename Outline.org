@@ -1,5 +1,7 @@
 # 27 Nov 2020 12:05 Some topics to write more about
 
+Just an outline serving as skeleton to add things to.
+
 * Infrastructure
 ** Variables
 *** kinds of variables: local, global, environment, interpreter, instance, class
@@ -532,7 +534,16 @@ The resulting subtree is dissussed in the following sections
 =add= may 
 
 ** Hash
-** Primitives
+
+** The SCLang compiler/interpreter
+   :PROPERTIES:
+   :DATE:     <2021-03-25 Thu 20:43>
+   :END:
+
+Brian Heim's notes for his lecture at IEM/Graz are an essential and valuable basis for discussing this.
+See https://www.brianlheim.com/2018/06/21/iem-graz-talks.html
+
+*** Primitives
 ** The structure of the Class Hierarchy Tree
 *** Meta- Classes (Classes of Classes)
 
@@ -635,6 +646,7 @@ Important for reading large numbers of files!
 *** Many-to-one and One-to many synth link configurations
 
 * Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
+
 ** NotificationCenter (Certainly)
 ** AbstractResponderFunc (Very probably)
 ** Server and its helper funcs such as ServerWatcher (Painful, but must)
