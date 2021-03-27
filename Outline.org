@@ -515,10 +515,17 @@ The resulting subtree is dissussed in the following sections
  Aspects to compare:
  Performance, functionality, interface.
 
-** Clocks, defer, sched
-** Using the AppClock in GUIs
-** Routines
-** Tasks
+** Timing and Processes
+
+*** Clocks, defer, sched
+*** Threads, Routines, Tasks, Processes
+**** Threads
+**** Routines
+**** Tasks
+**** Processes
+
+
+*** Using the AppClock in GUIs
 ** How Pbind works
 *** what is embedInStream? How does it work
 **** getting the next value from each key-value pair
