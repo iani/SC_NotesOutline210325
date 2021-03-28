@@ -652,12 +652,16 @@ Important for reading large numbers of files!
 *** Managing i/o bus connections
 *** Many-to-one and One-to many synth link configurations
 
-* Things that need radical cleaning (or in some cases even _TRASHING_) in SCClassLibrary
+* Quarks and Library Extensions
 
-** NotificationCenter (Certainly)
-** AbstractResponderFunc (Very probably)
-** Server and its helper funcs such as ServerWatcher (Painful, but must)
-** Default Event - Event Prototype (Perhaps, perhaps, but would be nice)
+* Interfaces with other Software
+
+* ScClassLibrary: Things Needing Review 
+
+** NotificationCenter 
+** AbstractResponderFunc 
+** Server and its helper funcs such as ServerWatcher
+** Default Event - Event Prototype
 
 Very complex. Would need a deep study before any improvements can be suggested.
 However, it seems that things should and can be simpler.
