@@ -1,0 +1,16 @@
+* Objectives
+  :PROPERTIES:
+  :DATE:     <2021-04-03 Sat 21:13>
+  :END:
+** Connect to OSCGroups client
+** Store details for connecting (on file)
+** Perform connectivity tests
+* Other functionality - separate classes
+  :PROPERTIES:
+  :DATE:     <2021-04-03 Sat 21:14>
+  :END:
+
+Synchronization and other functionality should be done in separate classes.
+
+A separate interaction + sonic structure definition language should be created using other classes.
+
